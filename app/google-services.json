@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807001702614",
+    "project_id": "oyehello-b8646",
+    "storage_bucket": "oyehello-b8646.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807001702614:android:5687a1f8e24bfd66af4977",
+        "android_client_info": {
+          "package_name": "com.apnaamati.oyehellochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807001702614-bhm4m4um4rcauli25thp0cgci6t6t3aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSaTi02Q91uoe9q4Flan9Txg8I7dr_NgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807001702614-bhm4m4um4rcauli25thp0cgci6t6t3aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

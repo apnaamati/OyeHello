@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LoginFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/o" />
+    <EditText
+        android:id="@+id/edtLEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:hint="Enter Your Email"
+        android:background="@drawable/textbox_outline"
+        android:padding="8dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/edtLPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtLEmail"
+        android:background="@drawable/textbox_outline"
+        android:padding="8dp"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtForPas"
+        android:layout_margin="24dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:backgroundTint="#00BCD4"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DON'T HAVE AN ACCOUNT?  "
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginStart="66dp"/>
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" SIGN UP."
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/btnLogin"
+        android:textColor="#3F51B5"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtForPas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGET PASSWORD?"
+        android:layout_below="@+id/edtLPass"
+        android:textColor="#3F51B5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>
